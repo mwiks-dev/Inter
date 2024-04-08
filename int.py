@@ -1,8 +1,3 @@
-first_name = input('Enter your first name:' )
-last_name = input('Enter your last name:' )
-date_of_birth = input('Enter your date of birth in the format yyyy-mm-dd:' )
-mobile_number = input('Enter your mobile number:' )
-
 def mask(first_name, last_name, date_of_birth, email):
     def mask_string(string):
         masked = string[:2]
@@ -25,4 +20,4 @@ def mask(first_name, last_name, date_of_birth, email):
     
     
 
-mask()
+print(mask('Maryann','Mwikali','1997-02-21','mwikali119@gmail.com'))
